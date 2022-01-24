@@ -1,8 +1,8 @@
 const assert = require('assert');
 const path = require('path');
-const cov = require('convert-multiple-files');
 const Templater = require('../lib/templater');
 
+// eslint-disable-next-line no-undef
 it('Полный тест на юзабилити', () => {
   assert.doesNotThrow(() => {
     const inPath = path.join(__dirname, 'f.docx');
