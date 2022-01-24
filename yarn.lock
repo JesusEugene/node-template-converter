@@ -59,6 +59,11 @@
   resolved "https://registry.yarnpkg.com/@humanwhocodes/object-schema/-/object-schema-1.2.0.tgz#87de7af9c231826fdd68ac7258f77c429e0e5fcf"
   integrity sha512-wdppn25U8z/2yiaT6YGquE6X8sSv7hNMWSXYSSU1jGv/yd6XqjXgTDJ8KP4NgjTXfJ3GbRjeeb8RTV7a/VpM+w==
 
+"@snyk/protect@^1.835.0":
+  version "1.835.0"
+  resolved "https://registry.yarnpkg.com/@snyk/protect/-/protect-1.835.0.tgz#0fb22a78467fe80d9ecc80f076985fa6aa1eb3b5"
+  integrity sha512-VbcdRyJaOZkepkIzGe//WjBvSJ7IRpXoN+3QvFeFOFo+jDxJEUPro3sxAsMDPYO3mbU2tF4797D90xMav9xfJw==
+
 "@types/json5@^0.0.29":
   version "0.0.29"
   resolved "https://registry.yarnpkg.com/@types/json5/-/json5-0.0.29.tgz#ee28707ae94e11d2b827bcbe5270bcea7f3e71ee"
