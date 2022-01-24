@@ -5,7 +5,8 @@
   "scripts": {
     "lint": "eslint .",
     "lint:fix": "eslint . --fix --color",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "test": "mocha .\\test\\test.js"
   },
   "husky": {
     "hooks": {
@@ -29,10 +30,12 @@
     "eslint-plugin-prettier": "^4.0.0",
     "husky": "^7.0.0",
     "lint-staged": "^11.1.2",
+    "mocha": "^9.2.0",
     "prettier": "^2.3.2"
   },
   "dependencies": {
     "docxtemplater": "^3.23.2",
-    "pizzip": "^3.1.1"
+    "pizzip": "^3.1.1",
+    "convert-multiple-files": "^1.2.5"
   }
 }
