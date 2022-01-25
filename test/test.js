@@ -28,3 +28,19 @@ it('Краш ошибки на название', () => {
     const t = new Templater(null, null).fill(fields).convert(pdfPath);
   }, Error);
 });
+
+it('Промис', () => {
+  assert.doesNotThrow(() => {
+    const inPath = path.join(__dirname, 'f.docx');
+    const outPath = path.join(__dirname, 'sq.docx');
+    const pdfPath = path.join(__dirname, 'pdf');
+    const fields = {
+      n: 'Evg...',
+      w: 'World',
+    };
+    const t = new Templater(inPath, outPath).fill(fields).convert('C//:c');
+    t.promise.then(()=>{
+      console.log('hello')
+    }).catch(err => {console.log(err)});
+  }, Error);
+});
