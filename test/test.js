@@ -21,3 +21,10 @@ it('Полный тест на юзабилити', () => {
     t.setOutDocxFilePath(outPath2).fill(fields2).convert(pdfPath);
   }, Error);
 });
+
+
+it('Краш ошибки на название', () => {
+  assert.throws(() => {
+    const t = new Templater(null, null).fill(fields).convert(pdfPath);
+  }, Error);
+});
