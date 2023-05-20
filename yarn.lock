@@ -89,10 +89,10 @@
   resolved "https://registry.yarnpkg.com/@ungap/promise-all-settled/-/promise-all-settled-1.1.2.tgz#aa58042711d6e3275dd37dc597e5d31e8c290a44"
   integrity sha512-sL/cEvJWAnClXw0wHk85/2L0G6Sj8UB0Ctc1TEMbKSsmpRosqhwj9gWgFRZSrBr2f9tiXISwNhCPmlfqUqyb9Q==
 
-"@xmldom/xmldom@^0.7.2":
-  version "0.7.4"
-  resolved "https://registry.yarnpkg.com/@xmldom/xmldom/-/xmldom-0.7.4.tgz#93b2f9486c88b6464e97f76c9ab49b0a548fbe57"
-  integrity sha512-wdxC79cvO7PjSM34jATd/RYZuYWQ8y/R7MidZl1NYYlbpFn1+spfjkiR3ZsJfcaTs2IyslBN7VwBBJwrYKM+zw==
+"@xmldom/xmldom@^0.8.7":
+  version "0.8.7"
+  resolved "https://registry.yarnpkg.com/@xmldom/xmldom/-/xmldom-0.8.7.tgz#8b1e39c547013941974d83ad5e9cf5042071a9a0"
+  integrity sha512-sI1Ly2cODlWStkINzqGrZ8K6n+MTSbAeQnAipGyL+KZCXuHaRlj2gyyy8B/9MvsFFqN7XHryQnB2QwhzvJXovg==
 
 JSONStream@^1.0.4:
   version "1.3.5"
@@ -746,12 +746,12 @@ doctrine@^3.0.0:
   dependencies:
     esutils "^2.0.2"
 
-docxtemplater@^3.23.2:
-  version "3.23.2"
-  resolved "https://registry.yarnpkg.com/docxtemplater/-/docxtemplater-3.23.2.tgz#c3b3afcaee439d3a4afec328eeb7662327b86304"
-  integrity sha512-fm4am6XueJmzn3XsVWpAsEXt26LB5q8joGLNW+yRSfncLGKnTJ7ygxaRl7JwCFno28sqR87/hs29wyqJ5FgFHA==
+docxtemplater@^3.37.2:
+  version "3.37.8"
+  resolved "https://registry.yarnpkg.com/docxtemplater/-/docxtemplater-3.37.8.tgz#126b4bf64654f82e157b1bd954530de411cfb5e7"
+  integrity sha512-iQHOUaGwJsvjllJtHWbvag+SnNBbbA5hhsJGUpyKuSEF8tkU6WCuVgv5zR/0HLrwZeJ7nKkPowHwp+/9dEQA5w==
   dependencies:
-    "@xmldom/xmldom" "^0.7.2"
+    "@xmldom/xmldom" "^0.8.7"
 
 dot-prop@^5.1.0:
   version "5.3.0"
