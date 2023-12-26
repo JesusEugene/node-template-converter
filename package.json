@@ -37,7 +37,7 @@
   },
   "dependencies": {
     "convert-multiple-files": "^1.2.5",
-    "docxtemplater": "^3.23.2",
+    "docxtemplater": "^3.42.3",
     "pizzip": "^3.1.1"
   }
 }
